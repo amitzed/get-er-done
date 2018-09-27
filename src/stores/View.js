@@ -57,7 +57,7 @@ class View extends Component {
                       textDecoration: get.completed ? "line-through" : "none"
                     }}
                   >
-                    {get.text} {get.completed === true ? "(completed)" : ""}
+                    {get.text} {get.completed === true ? "** Got It Done!" : ""}
                   </td>
                   <td>
 
