@@ -65,7 +65,7 @@ class View extends Component {
                       className="fas fa-check-double"
                       onClick={() => this.props.toggleGet(get.id)}
                       style={{
-                        color: "green",
+                        color: "#FF6138",
                         fontSize: "24pt"
                       }}
                     />

@@ -11,14 +11,40 @@ body {
   background-size: cover;
 }
 
-li {
-  padding: 10px;
+.breadcrumb {
+  padding: 5px;
   display: inline-block;
+  background-color: #BEEB9F;
+  width: 100%;
+  border-radius: 30px;
+}
+
+.form-control {
+  font-size: 25px;
+  padding: 5px;
+  background-color: #FFFF9D;
+  width: 100%;
+  border-radius: 30px;
+}
+
+th {
+  animation: size-in 1s ease 1;
 }
 
 .fas {
   cursor: pointer;
-  animation: spin 15s ease infinite;
+  animation: spin 4s ease 1;
+}
+
+.btn {
+  font-size: 30px;
+  border-radius: 30px;
+}
+
+.table {
+  font-size: 30px;
+  border-radius: 30px;
+  background-color: #00A388;
 }
 
 
