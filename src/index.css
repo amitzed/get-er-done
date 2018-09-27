@@ -11,6 +11,19 @@ body {
   background-size: cover;
 }
 
+h1 {
+  text-align: center;
+  color: #FF6138;
+  /* font-family: 'Oxygen', sans-serif; */
+  /* font-family: 'Jua', sans-serif; */
+  /* font-family: 'Permanent Marker', cursive; */
+  /* font-family: 'Concert One', cursive; */
+  font-family: 'Cabin Sketch', cursive;
+  /* font-family: 'Fredericka the Great', cursive; */
+  /* font-family: 'Bungee Inline', cursive; */
+  font-size: 80px;
+}
+
 .breadcrumb {
   padding: 5px;
   display: inline-block;
@@ -20,6 +33,14 @@ body {
 }
 
 .form-control {
+  font-size: 25px;
+  padding: 5px;
+  background-color: #FFFF9D;
+  width: 100%;
+  border-radius: 30px;
+}
+
+.alert {
   font-size: 25px;
   padding: 5px;
   background-color: #FFFF9D;
@@ -46,18 +67,6 @@ th {
   border-radius: 30px;
   background-color: #00A388;
 }
-
-
-
-    /* font-family: 'Oxygen', sans-serif; */
-    /* font-family: 'Jua', sans-serif; */
-    /* font-family: 'Permanent Marker', cursive; */
-    /* font-family: 'Concert One', cursive; */
-    /* font-family: 'Cabin Sketch', cursive; */
-    /* font-family: 'Fredericka the Great', cursive; */
-    /* font-family: 'Bungee Inline', cursive; */
-
-
 
 /* Animations */
 @keyframes size-in {

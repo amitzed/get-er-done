@@ -23,7 +23,6 @@ class CreateGet extends Component {
     render(){
         return (
           <div className="form-group row">
-
             <div className="col-sm-10">
 
               <input onChange={this.onChangeGetText} value={this.state.gettext} type="text" className="form-control" id="topRow" placeholder="&#9728; Get 'Er Done!"/>
