@@ -1,6 +1,53 @@
 body {
   margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  padding: 100px 10px 10px 0;
+  font-family: 'Jua', sans-serif;
+  font-size: 20px;
   background: tan;
+  background-image: url("/images/shed.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+li {
+  padding: 10px;
+  display: inline-block;
+}
+
+.fas {
+  cursor: pointer;
+  animation: spin 15s ease infinite;
+}
+
+
+
+    /* font-family: 'Oxygen', sans-serif; */
+    /* font-family: 'Jua', sans-serif; */
+    /* font-family: 'Permanent Marker', cursive; */
+    /* font-family: 'Concert One', cursive; */
+    /* font-family: 'Cabin Sketch', cursive; */
+    /* font-family: 'Fredericka the Great', cursive; */
+    /* font-family: 'Bungee Inline', cursive; */
+
+
+
+/* Animations */
+@keyframes size-in {
+    from {
+      transform: scale(.1);
+    }
+    to {
+      transform: scale(1);
+    }
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
 }

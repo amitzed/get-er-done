@@ -4,9 +4,9 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
-import { applyMiddleware, createStore, compose } from 'redux';
-import { Provider } from 'react-redux';
-import AppReducer from './reducers/AppReducer';
+import { createStore, applyMiddleware, compose } from 'redux'
+import { Provider } from 'react-redux'
+import AppReducer from './reducers/AppReducer'
 
 
 const store = compose(window.devToolsExtension ? window.devToolsExtension() : f => f)(createStore)(AppReducer)
